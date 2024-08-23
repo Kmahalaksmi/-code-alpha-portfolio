@@ -1,1 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maha Lakshmi K | Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+
+        nav a {
+            color: #fff;
+            padding: 15px 20px;
+            text-decoration: none;
+            display: block;
+            text-align: center;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+        .container {
+            width: 80%;
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        .section {
+            margin-bottom: 40px;
+        }
+
+        .section h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        .skills ul, .internships ul, .certifications ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .skills li, .internships li, .certifications li {
+            background-color: #f4f4f4;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .projects .project {
+            margin-bottom: 20px;
+        }
+
+        .projects .project h3 {
+            margin: 0;
+        }
+
+        .projects .project p {
+            margin: 5px 0;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+       
+       <h1>Maha Lakshmi K </h1>
+       <p>AI and Data Science Aspirant</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#internships">Internships</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <p> A passionate AI and Data Science aspirant with a strong focus on emerging technologies like Artificial Intelligence and Machine Learning. I am a hardworking programming student, always striving for high-quality work and constantly seeking new challenges in my field.</p>
+        </section>
+
+        <section id="skills" class="section skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Python</li>
+                <li>SQL</li>
+                <li>C (Basics)</li>
+                <li>HTML & CSS</li>
+                <li>Time Management</li>
+                <li>Problem Solving</li>
+                <li>Data Structures</li>
+                <li>Data Visualization</li>
+                <li>Data Analysis</li>
+                <li>Django</li>
+            </ul>
+        </section>
+
+        <section id="projects" class="section projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Loan Eligibility Prediction Using Machine Learning</h3>
+                <p><strong>Description:</strong> A machine learning model to predict the eligibility of loan applicants based on various features.</p>
+                <p><strong>Technologies:</strong> Python</p>
+                <p><a href="https://github.com/Kmahalaksmi/loan-eligiblity-prediction-" target="_blank">View Project</a></p>
+            </div>
+            <div class="project">
+                <h3>E-Commerce Recommendation Engine in Python</h3>
+                <p><strong>Description:</strong> An AI-based recommendation engine for e-commerce platforms to suggest products to users.</p>
+                <p><strong>Technologies:</strong> Python</p>
+                <p><a href="https://github.com/Kmahalaksmi/Ecommerce-Recommendation-System-" target="_blank">View Project</a></p>
+            </div>
+            <div class="project">
+                <h3>Credit Card Fraud Detection</h3>
+                <p><strong>Description:</strong> A machine learning model designed to detect fraudulent transactions in credit card usage.</p>
+                <p><strong>Technologies:</strong> Machine Learning</p>
+                <p><a href="https://github.com/igress-intern/credit-card-prediction" target="_blank">View Project</a></p>
+            </div>
+        </section>
+
+        <section id="internships" class="section internships">
+            <h2>Internships</h2>
+            <ul>
+                <li>
+                    <strong>Codesoft | Artificial Intelligence</strong> (09/2023 - 10/2023)<br>
+                    Gained in-depth knowledge of AI, focusing on foundational concepts and practical applications.
+                </li>
+                <li>
+                    <strong>Technohack | Data Science</strong> (11/2023 - 12/2023)<br>
+                    Learned data cleaning and handling techniques essential for data science, which enhanced my understanding of data processing and analysis.
+                </li>
+                <li>
+                    <strong>IGRESS Solutions LLP | Machine Learning</strong> (06/2024)<br>
+                    Focused on credit card fraud detection, applying machine learning techniques to identify and mitigate fraudulent activities.
+                </li>
+            </ul>
+        </section>
+
+        <section id="certifications" class="section certifications">
+            <h2>Certifications</h2>
+            <ul>
+                <li>Python Program for Beginners (Udemy) - 2022</li>
+                <li>Data Structures and Designs (Udemy) - 2023</li>
+                <li>Introduction to Artificial Intelligence and Deep Learning (Udemy) - 2023</li>
+                <li>Artificial Intelligence: A Comprehensive Guide (Simplilearn) - 2023</li>
+                <li>Introduction to SQL: A Query Language (Cursa) - 2023</li>
+                <li>Database Management Systems (Udemy) - 2024</li>
+                <li>Introduction to Data Exploration Using Machine Learning (Coursera) - 2024</li>
+                <li>Data Exploration and Visualization Using Python (Udemy) - 2024</li>
+                <li>Design and Analysis of Algorithms (Udemy) - 2024</li>
+                <li>Introduction to Machine Learning (Simplilearn) - 2024</li>
+                <li>Introduction to Data Analytics (Simplilearn) - 2024</li>
+                <li>Data Science and Analysis Using Python (Udemy) - 2024</li>
+                <li>Fundamentals of Operating Systems (Udemy) - 2024</li>
+                <li>Cisco Certification on Networking Basics - 2024</li>
+                <li>Data Science Using Django (Simplilearn) - 2024</li>
+                <li>C Programming (Cursa) - Ongoing</li>
+            </ul>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact</h2>
+            <p>If you'd like to get in touch, feel free to email me at <a href="mailto:mahalakshmi54235@gmail.com">mahalakshmi54235@gmail.com</a>.</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/maha-lakshmi-k-23745029a/" target="_blank">Maha Lakshmi K</a></p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Maha Lakshmi K. All rights reserved.</p>
+    </footer>
+</body>
+</html>
 # -code-alpha-portfolio
